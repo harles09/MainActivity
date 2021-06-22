@@ -19,13 +19,13 @@ class MovieFragment : Fragment(R.layout.fragment_movie) {
     private val movieViewModel: MovieViewModel by viewModel()
     private var _binding: FragmentMovieBinding? = null
     private val binding get() = _binding!!
-    private var searchMovie :String =""
+//    private var searchMovie :String =""
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        searchMovie = arguments.getString("movie").toString()
+//        searchMovie = arguments.getString("movie").toString()
         _binding = FragmentMovieBinding.inflate(inflater,container,false)
         return binding.root
     }
