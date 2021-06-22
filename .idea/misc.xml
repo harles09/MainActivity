@@ -3,9 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/layout/activity_detail.xml" value="0.10989583333333333" />
+        <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/layout/activity_splash_screen.xml" value="0.10989583333333333" />
+        <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/layout/fragment_movie.xml" value="0.10989583333333333" />
         <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/menu/detail_menu.xml" value="0.17" />
         <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/menu/favorite_menu.xml" value="0.21" />
         <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/app/src/main/res/menu/main_menu.xml" value="0.25" />
+        <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/core/src/main/res/font/roboto.xml" value="0.14010416666666667" />
         <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/core/src/main/res/layout/list_data.xml" value="0.10916919959473151" />
         <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/favorite/src/main/res/layout/activity_favorite.xml" value="0.21" />
         <entry key="..\:/Android-Expert/Submission/MovieSubmission Sub 2/favorite/src/main/res/layout/view_empty.xml" value="0.10989583333333333" />
