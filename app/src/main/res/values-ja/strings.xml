@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Baangood</string>
+    <string name="movie">映画</string>
+    <string name="tvshow">テレビ番組</string>
+    <string name="_8_5">8.5</string>
+    <string name="title">題名</string>
+    <string name="release_date">発売日</string>
+    <string name="descritption">説明</string>
+    <string name="logo">ロゴ</string>
+    <string name="favorite">お気に入り</string>
+    <string name="title_favorite">お気に入り</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="something_wrong">おっと！何かが間違っていた</string>
+    <string name="no_data">空のデータ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="change_language">言語を変えてください</string>
+    <string name="search">探す</string>
+    <string name="search_hint">テレビ番組/映画を検索する</string>
+</resources>

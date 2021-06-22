@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Baangood</string>
+    <string name="movie">Movies</string>
+    <string name="tvshow">Tv Show</string>
+    <string name="_8_5">8.5</string>
+    <string name="title">Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="descritption">Descritption</string>
+    <string name="logo">Logo</string>
+    <string name="favorite">Favorite</string>
+    <string name="title_favorite">Favorite</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="no_data">Empty Data</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="change_language">Change Language</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Search TvShow/Movies</string>
+</resources>
