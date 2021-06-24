@@ -34,6 +34,6 @@ dependencies {
     implementation "org.koin:koin-android-viewmodel:$koin_version"
 
     //database security
-    implementation "net.zetetic:android-database-sqlcipher:4.4.0"
-    implementation "androidx.sqlite:sqlite-ktx:2.1.0"
+    implementation "net.zetetic:android-database-sqlcipher:$database_sqlcipher"
+    implementation "androidx.sqlite:sqlite-ktx:$sqlite"
 }

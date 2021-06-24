@@ -29,8 +29,7 @@ class AppRepository (
             appExecutors: AppExecutors
         ): AppRepository =
             instance ?: synchronized(this) {
-               instance
-                    ?: AppRepository(remoteData, localData, appExecutors)
+               instance ?: AppRepository(remoteData, localData, appExecutors)
             }
     }
 

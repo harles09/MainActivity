@@ -7,6 +7,7 @@ import com.expert.core.data.source.remote.response.TvShowResponse
 import com.expert.core.domain.model.Movie
 import com.expert.core.domain.model.TvShow
 
+
 object DataMapper {
     fun mapResponsesToEntities(input: List<MovieResponse>): List<MovieEntity> {
         val movieList = ArrayList<MovieEntity>()
@@ -15,8 +16,8 @@ object DataMapper {
                 movieId = it.id,
                 movieTitle = it.originalTitle,
                 overview = it.overview,
-                posterPath = it.posterPath,
-                releaseDate = it.releaseDate,
+                posterPath = it.posterNow,
+                releaseDate = it.releaseNow,
                 voteAverage = it.voteAverage,
                 favorited = false
             )

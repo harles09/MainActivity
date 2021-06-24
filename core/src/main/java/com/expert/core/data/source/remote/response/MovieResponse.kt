@@ -13,10 +13,10 @@ class MovieResponse (
     val overview: String,
 
     @field:SerializedName("poster_path")
-    val posterPath: String,
+    val posterNow: String,
 
     @field:SerializedName("release_date")
-    val releaseDate: String,
+    val releaseNow: String,
 
     @field:SerializedName("vote_average")
     val voteAverage: String

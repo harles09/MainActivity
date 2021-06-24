@@ -12,8 +12,7 @@ class LocalDataSource(private val appDao: AppDao) {
 
         fun getInstance(appDao: AppDao): LocalDataSource =
             instance ?: synchronized(this) {
-                instance
-                    ?: LocalDataSource(appDao)
+                instance ?: LocalDataSource(appDao)
             }
     }
 

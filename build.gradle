@@ -1,5 +1,8 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
+    ext {
+        agp_version = '4.2.1'
+    }
     ext.kotlin_version = "1.5.0"
     ext.appcompat ="1.3.0"
     ext.constraint = "2.0.4"
@@ -21,12 +24,15 @@ buildscript {
     ext.lifecycle_version = "2.3.1"
     ext.koin_version = "2.1.6"
 
+    ext.database_sqlcipher = "4.4.0"
+    ext.sqlite = "2.1.0"
+
     repositories {
         google()
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.0.0-beta04'
+        classpath "com.android.tools.build:gradle:$agp_version"
         classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.10'
 
         // NOTE: Do not place your application dependencies here; they belong
