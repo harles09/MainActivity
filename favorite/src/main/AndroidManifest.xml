@@ -25,8 +25,6 @@
                     android:host="favorite"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.expert.mainactivity.detail.DetailActivity"
-            android:exported="true"/>
     </application>
 
 </manifest>
