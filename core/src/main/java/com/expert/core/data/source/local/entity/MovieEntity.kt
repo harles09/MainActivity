@@ -22,7 +22,7 @@ data class MovieEntity (
     var posterPath:String,
 
     @ColumnInfo(name = "releaseDate")
-    var releaseDate:String,
+    var releaseDate:String = "",
 
     @ColumnInfo(name = "voteAverage")
     var voteAverage:String,

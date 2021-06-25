@@ -17,7 +17,7 @@ object DataMapper {
                 movieTitle = it.originalTitle,
                 overview = it.overview,
                 posterPath = it.posterNow,
-                releaseDate = it.releaseNow,
+                releaseDate = it.releaseNow.toString(),
                 voteAverage = it.voteAverage,
                 favorited = false
             )
